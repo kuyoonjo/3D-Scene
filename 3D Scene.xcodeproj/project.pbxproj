@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8BC4011AA70A1200DA3B12 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BC4001AA70A1200DA3B12 /* ResourcePath.mm */; };
+		4B8BC4041AA70A1200DA3B12 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BC4031AA70A1200DA3B12 /* main.cpp */; };
+		4B912E861AD4DB740007AF0F /* rosewood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B912E841AD4DB740007AF0F /* rosewood.jpg */; };
+		4B912E871AD4DB740007AF0F /* woodash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B912E851AD4DB740007AF0F /* woodash.jpg */; };
+		4B912E891AD4F1810007AF0F /* ColorDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B912E881AD4F1810007AF0F /* ColorDice.png */; };
+		4BC92A481ADA89E10086C42F /* ITC_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BC92A471ADA89E10086C42F /* ITC_Logo.png */; };
+		4BC92A4A1ADA93600086C42F /* bottleColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BC92A491ADA93600086C42F /* bottleColor.png */; };
+		4BCB6ED31AD92C9A007C049C /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB6ED21AD92B4A007C049C /* sansation.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B8BC3FB1AA70A1200DA3B12 /* 3D Scene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Scene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8BC3FF1AA70A1200DA3B12 /* 3D Scene-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3D Scene-Info.plist"; sourceTree = "<group>"; };
+		4B8BC4001AA70A1200DA3B12 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		4B8BC4021AA70A1200DA3B12 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		4B8BC4031AA70A1200DA3B12 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4B8BC4131AA70A8100DA3B12 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		4B912E831AD49CCA0007AF0F /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		4B912E841AD4DB740007AF0F /* rosewood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rosewood.jpg; path = Resources/rosewood.jpg; sourceTree = "<group>"; };
+		4B912E851AD4DB740007AF0F /* woodash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = woodash.jpg; path = Resources/woodash.jpg; sourceTree = "<group>"; };
+		4B912E881AD4F1810007AF0F /* ColorDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColorDice.png; path = Resources/ColorDice.png; sourceTree = "<group>"; };
+		4B912E8A1AD4F65C0007AF0F /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		4B912E8D1AD505500007AF0F /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		4B912E8E1AD505500007AF0F /* Equilateral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equilateral.h; sourceTree = "<group>"; };
+		4BC92A471ADA89E10086C42F /* ITC_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ITC_Logo.png; path = Resources/ITC_Logo.png; sourceTree = "<group>"; };
+		4BC92A491ADA93600086C42F /* bottleColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottleColor.png; path = Resources/bottleColor.png; sourceTree = "<group>"; };
+		4BCA3F3B1AE10BE00083E43C /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		4BCA3F3C1AE1191E0083E43C /* RoundLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundLabel.h; sourceTree = "<group>"; };
+		4BCA3F3D1AE12EC70083E43C /* Drawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		4BCB6ECD1AD8B795007C049C /* Torch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Torch.h; sourceTree = "<group>"; };
+		4BCB6ECE1AD8BDEF007C049C /* Movable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movable.h; sourceTree = "<group>"; };
+		4BCB6ECF1AD8C1F1007C049C /* Rotatable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rotatable.h; sourceTree = "<group>"; };
+		4BCB6ED11AD8E88B007C049C /* ChequeredFloor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChequeredFloor.h; sourceTree = "<group>"; };
+		4BCB6ED21AD92B4A007C049C /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = Resources/sansation.ttf; sourceTree = "<group>"; };
+		4BCB6ED41AD931EF007C049C /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		4BCB6ED51AD958F0007C049C /* Bottle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bottle.h; sourceTree = "<group>"; };
+		4BFEFE201AD78768004B85D7 /* TruncatedCone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TruncatedCone.h; sourceTree = "<group>"; };
+		4BFEFE231AD78C42004B85D7 /* Object3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object3D.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8BC3F71AA70A1200DA3B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8BC3F11AA70A1200DA3B12 = {
+			isa = PBXGroup;
+			children = (
+				4B8BC3FD1AA70A1200DA3B12 /* 3D Scene */,
+				4B8BC3FC1AA70A1200DA3B12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8BC3FC1AA70A1200DA3B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8BC3FB1AA70A1200DA3B12 /* 3D Scene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8BC3FD1AA70A1200DA3B12 /* 3D Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4B8BC4001AA70A1200DA3B12 /* ResourcePath.mm */,
+				4B8BC4021AA70A1200DA3B12 /* ResourcePath.hpp */,
+				4B8BC4031AA70A1200DA3B12 /* main.cpp */,
+				4BCB6ED41AD931EF007C049C /* Light.h */,
+				4BCB6ED11AD8E88B007C049C /* ChequeredFloor.h */,
+				4B8BC4131AA70A8100DA3B12 /* Camera.h */,
+				4B912E831AD49CCA0007AF0F /* Vector.h */,
+				4B912E8A1AD4F65C0007AF0F /* Cube.h */,
+				4B912E8D1AD505500007AF0F /* Square.h */,
+				4BCA3F3B1AE10BE00083E43C /* Circle.h */,
+				4B912E8E1AD505500007AF0F /* Equilateral.h */,
+				4BFEFE201AD78768004B85D7 /* TruncatedCone.h */,
+				4BCA3F3C1AE1191E0083E43C /* RoundLabel.h */,
+				4BCA3F3D1AE12EC70083E43C /* Drawable.h */,
+				4BFEFE231AD78C42004B85D7 /* Object3D.h */,
+				4BCB6ECD1AD8B795007C049C /* Torch.h */,
+				4BCB6ECE1AD8BDEF007C049C /* Movable.h */,
+				4BCB6ECF1AD8C1F1007C049C /* Rotatable.h */,
+				4BCB6ED51AD958F0007C049C /* Bottle.h */,
+				4B8BC4051AA70A1200DA3B12 /* Resources */,
+				4B8BC3FE1AA70A1200DA3B12 /* Supporting Files */,
+			);
+			path = "3D Scene";
+			sourceTree = "<group>";
+		};
+		4B8BC3FE1AA70A1200DA3B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B8BC3FF1AA70A1200DA3B12 /* 3D Scene-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B8BC4051AA70A1200DA3B12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BC92A491ADA93600086C42F /* bottleColor.png */,
+				4BCB6ED21AD92B4A007C049C /* sansation.ttf */,
+				4BC92A471ADA89E10086C42F /* ITC_Logo.png */,
+				4B912E841AD4DB740007AF0F /* rosewood.jpg */,
+				4B912E881AD4F1810007AF0F /* ColorDice.png */,
+				4B912E851AD4DB740007AF0F /* woodash.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8BC3FA1AA70A1200DA3B12 /* 3D Scene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8BC4101AA70A1200DA3B12 /* Build configuration list for PBXNativeTarget "3D Scene" */;
+			buildPhases = (
+				4B8BC3F61AA70A1200DA3B12 /* Sources */,
+				4B8BC3F71AA70A1200DA3B12 /* Frameworks */,
+				4B8BC3F81AA70A1200DA3B12 /* Resources */,
+				4B8BC3F91AA70A1200DA3B12 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Scene";
+			productName = "3D Scene";
+			productReference = 4B8BC3FB1AA70A1200DA3B12 /* 3D Scene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8BC3F21AA70A1200DA3B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yu Chen";
+				TargetAttributes = {
+					4B8BC3FA1AA70A1200DA3B12 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B8BC3F51AA70A1200DA3B12 /* Build configuration list for PBXProject "3D Scene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B8BC3F11AA70A1200DA3B12;
+			productRefGroup = 4B8BC3FC1AA70A1200DA3B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8BC3FA1AA70A1200DA3B12 /* 3D Scene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8BC3F81AA70A1200DA3B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCB6ED31AD92C9A007C049C /* sansation.ttf in Resources */,
+				4B912E891AD4F1810007AF0F /* ColorDice.png in Resources */,
+				4B912E861AD4DB740007AF0F /* rosewood.jpg in Resources */,
+				4B912E871AD4DB740007AF0F /* woodash.jpg in Resources */,
+				4BC92A481ADA89E10086C42F /* ITC_Logo.png in Resources */,
+				4BC92A4A1ADA93600086C42F /* bottleColor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B8BC3F91AA70A1200DA3B12 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8BC3F61AA70A1200DA3B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8BC4041AA70A1200DA3B12 /* main.cpp in Sources */,
+				4B8BC4011AA70A1200DA3B12 /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B8BC40E1AA70A1200DA3B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		4B8BC40F1AA70A1200DA3B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		4B8BC4111AA70A1200DA3B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				INFOPLIST_FILE = "3D Scene/3D Scene-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B8BC4121AA70A1200DA3B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				INFOPLIST_FILE = "3D Scene/3D Scene-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8BC3F51AA70A1200DA3B12 /* Build configuration list for PBXProject "3D Scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8BC40E1AA70A1200DA3B12 /* Debug */,
+				4B8BC40F1AA70A1200DA3B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8BC4101AA70A1200DA3B12 /* Build configuration list for PBXNativeTarget "3D Scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8BC4111AA70A1200DA3B12 /* Debug */,
+				4B8BC4121AA70A1200DA3B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8BC3F21AA70A1200DA3B12 /* Project object */;
+}
