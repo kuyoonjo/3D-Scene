@@ -1,5 +1,5 @@
 # 3D-Scene
-This is an assessment for Ken Power(ken.power@itcarlow.ie). A 3D Scene with some components.
+This is an assessment for Ken Power(ken.power@itcarlow.ie) in IT Carlow(http://www.itcarlow.ie). A 3D Scene with some components.
 
 - Project requirements:  https://docs.google.com/document/d/1PWVuK9eF6XweU1uw762KVKphdNnDai8ILSxJnSnMhJk/pub
 - Supervisor: Ken Power(ken.power@itcarlow.ie)
